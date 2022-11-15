@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4859d1b8e4.js" crossorigin="anonymous"></script>
+    <title>form validation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form class="form" id="form">
+        <div class="header"><h1>login</h1></div>
+        <div class="form-controls">
+            <lable>user name</lable>
+            <input type="text" id="username" placeholder="john">
+            <i class="fa-solid fa-circle-check "></i>
+            <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+            <small>error message</small>
+        </div>
+
+        <div class="form-controls">
+            <lable>email</lable>
+            <input type="email" id="email" placeholder="john@gmail.com">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+            <small>error message</small>
+        </div>
+
+        <div class="form-controls">
+            <lable>password</lable>
+            <input type="password" id="pswd" placeholder="password">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+            <small>error message</small>
+        </div>
+
+        <div class="form-controls">
+            <lable>confirm password</lable>
+            <input type="password" id="pswd2" placeholder="confirm password">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+            <small>error message</small>
+        </div>
+        
+        <button>submit</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>

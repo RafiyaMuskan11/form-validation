@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cadetblue;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    background-color: whitesmoke;
+   padding: 2rem;
+   border-radius: 5px;
+}
+
+.form h1{
+    margin: 1rem;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+   
+}
+.form-controls{
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   position: relative;
+   /* display: block; */
+}
+.form-controls lable{
+    display:inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+
+.form-controls input{
+    border:2px solid rgb(210, 206, 206);
+    border-radius: 4px;
+    padding: 2px 5px;
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    font-size: 20px;
+}
+
+.form-controls.success input{
+    border-color: rgb(73, 211, 73);
+ }
+ .form-controls.error input{
+     border-color: rgb(224, 69, 69);
+ }
+ 
+ .form-controls i{
+   position: absolute;
+   top: 2.2rem;
+   right: 0;
+   visibility: hidden;
+}
+.form-controls.success i.fa-circle-check{
+    color: rgb(73, 211, 73);
+    visibility: visible;
+ }
+ .form-controls.error i.fa-sharp{
+    color: rgb(224, 69, 69);
+    visibility: visible;
+}
+
+small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+ .form-controls.error small{
+    color: rgb(224, 69, 69);
+    visibility: visible;
+}
+
+button{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: inherit;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: none;
+    color: azure;
+}
+
